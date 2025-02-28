@@ -5,18 +5,18 @@
 @theme {
   --font-sans: "Space Grotesk", "sans-serif";
   --font-mono: "Audiowide", "monospace";
-  --color-text-50: #F2F2F2;
-  --color-text-200: #CCCCCC;
+  --color-text-50: #f2f2f2;
+  --color-text-200: #cccccc;
   --color-text-400: #999999;
   --color-text-600: #666666;
-  --color-background-50: #F1F2F4;
-  --color-background-400: #8F99A3;
-  --color-background-700: #454C54;
-  --color-background-800: #2E3338;
-  --color-background-900: #17191C;
-  --color-primary-100: #D4DFF7;
-  --color-primary-300: #7E9EE7;
-  --color-primary-400: #547DDE;
-  --color-primary-600: #547DDE;
-  --color-accent-400: #F5FF33;
+  --color-background-50: #f1f2f4;
+  --color-background-400: #8f99a3;
+  --color-background-700: #454c54;
+  --color-background-800: #2e3338;
+  --color-background-900: #17191c;
+  --color-primary-100: #d4dff7;
+  --color-primary-300: #7e9ee7;
+  --color-primary-400: #547dde;
+  --color-primary-600: #547dde;
+  --color-accent-400: #f5ff33;
 }

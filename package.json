@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/preact": "^4.0.5",
+    "@tabler/icons-preact": "^3.30.0",
     "@tailwindcss/vite": "^4.0.9",
     "astro": "^5.3.1",
     "preact": "^10.26.3",
