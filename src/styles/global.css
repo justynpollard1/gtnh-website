@@ -1,1 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "sans-serif";
+  --font-mono: "Audiowide", "monospace";
+}

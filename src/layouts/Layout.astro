@@ -1,14 +1,21 @@
+---
+import NavBar from "../components/NavBar";
+---
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/gtnh-simple.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>Gregtech New Horizons</title>
   </head>
   <body>
-    <slot />
+    <Fragment>
+      <NavBar client:load />
+      <main><slot /></main>
+    </Fragment>
   </body>
 </html>
 <style>
@@ -17,5 +24,6 @@
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: #17191c;
   }
 </style>
